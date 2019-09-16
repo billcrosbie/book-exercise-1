@@ -23,4 +23,11 @@ class Book
     }
 
     // Add the methods here ...
+    /**
+     * accessor method for author field
+     */
+    public String getAuthor()
+    {
+        return author;
+    }
 }
